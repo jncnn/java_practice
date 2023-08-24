@@ -4,7 +4,7 @@ public class day1 {
 
 //        checkNumber(25);
 //checkNumber(-5);
-
+        System.out.println("Beni gorebiliyormusunuz?");
         System.out.println(isLeapYear(12));
     }
     /*Write a method called checkNumber with an int parameter number.
