@@ -1,6 +1,29 @@
 public class Wall {
     private double width;
+    private double height;
 
+    public Wall() {};
+
+    public Wall(double width, double height) {
+        this.width = width;
+        this.height = height;
+    }
+
+    public double getWidth() {
+        return width;
+    }
+
+    public void setWidth(double width) {
+        this.width = width;
+    }
+
+    public double getHeight() {
+        return height;
+    }
+
+    public void setHeight(double height) {
+        this.height = height;
+    }
 }
 
 //    Write a class with the name Wall. The class needs two fields (instance variables) with name width and height of type double.
