@@ -2,9 +2,18 @@ public class day1 {
 
     public static void main(String[] args){
 
-//        checkNumber(25);
-//        checkNumber(-5);
+
         System.out.println(isLeapYear(12));
+        String name = "Ali";
+
+        RyDay3Customer customer1 = new RyDay3Customer();
+        RyDay3Customer customer2 = new RyDay3Customer("Ramazan", "test@test.com");
+        RyDay3Customer customer3 = new RyDay3Customer("Zeliha", 10000L, "test@test.com");
+
+        customer1.checkNumber(5);
+
+
+
     }
 
     /*Write a method called checkNumber with an int parameter number.
@@ -12,16 +21,7 @@ public class day1 {
     "positive" if the parameter number is > 0
  "negative" if the parameter number is < 0
   "zero" if the parameter number is equal to 0*/
-    public static void checkNumber(int number) {
-        if (number > 0) {
-            System.out.println("positive");
 
-        } else if (number < 0) {
-            System.out.println("negative");
-        } else {
-            System.out.println("zero");
-        }
-    }
 
 
 
@@ -91,13 +91,8 @@ The following years are not leap years:
 This is because they are evenly divisible by 100 but not by 400.
 
      */
-
-
-
-
-
     }
-
+//
 
 
 
