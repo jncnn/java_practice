@@ -3,28 +3,25 @@ public class day1 {
     public static void main(String[] args){
 
 //        checkNumber(25);
-//checkNumber(-5);
-        System.out.println("Beni gorebiliyormusunuz?");
+//        checkNumber(-5);
         System.out.println(isLeapYear(12));
     }
+
     /*Write a method called checkNumber with an int parameter number.
     The method should not return any value, and it needs to print out:
-
     "positive" if the parameter number is > 0
-
  "negative" if the parameter number is < 0
-
   "zero" if the parameter number is equal to 0*/
-    public static void checkNumber(int number){
-
-        if(number>0){
+    public static void checkNumber(int number) {
+        if (number > 0) {
             System.out.println("positive");
 
-        } else if(number<0){
+        } else if (number < 0) {
             System.out.println("negative");
-    }else{
-            System.out.println("zero");}
-
+        } else {
+            System.out.println("zero");
+        }
+    }
 
 
 
@@ -64,30 +61,21 @@ isLeapYear(1600); → should return true since 1600 is a leap year
 isLeapYear(2017); → should return false since 2017 is not a leap year
 
 isLeapYear(2000);  → should return true because 2000 is a leap year*/
-
-
-}
     public static boolean isLeapYear(int year){
-
         if(year < 0 || year >= 9999){
             return false;
         }
-
-
         if (year%4 == 0 ){
 
             if (year%100 ==0){
                 if (year%400 ==0){
                     return true;
-
-
                 }else{
                     return false;
                 }
             }else{
                 return true;
             }
-
         }else{
             return false;
         }
@@ -109,7 +97,6 @@ This is because they are evenly divisible by 100 but not by 400.
 
 
     }
-
 
 
 
