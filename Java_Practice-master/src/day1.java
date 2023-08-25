@@ -11,6 +11,7 @@ public class day1 {
         Wall wall1 = new Wall(10,11);
         Wall wall2 =new Wall();
 
+        Wall wall4 =new Wall();
         wall2.setHeight(5);
         wall2.setWidth(12);
 
