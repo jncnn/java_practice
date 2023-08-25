@@ -3,16 +3,22 @@ public class day1 {
     public static void main(String[] args){
 
 
-        System.out.println(isLeapYear(12));
-        String name = "Ali";
+//        RyDay3Customer customer1 = new RyDay3Customer();
+//        RyDay3Customer customer2 = new RyDay3Customer("Ramazan", "test@test.com");
+//        RyDay3Customer customer3 = new RyDay3Customer("Zeliha", 10000L, "test@test.com");
+//        customer1.checkNumber(5);
 
-        RyDay3Customer customer1 = new RyDay3Customer();
-        RyDay3Customer customer2 = new RyDay3Customer("Ramazan", "test@test.com");
-        RyDay3Customer customer3 = new RyDay3Customer("Zeliha", 10000L, "test@test.com");
+        Wall wall1 = new Wall(10,11);
+        Wall wall2 =new Wall();
 
-        customer1.checkNumber(5);
+        wall2.setHeight(5);
+        wall2.setWidth(12);
 
+        double area1 = wall1.getArea();
+        double  area2 = wall2.getArea();
 
+        System.out.println(area1);
+        System.out.println(area2);
 
     }
 
